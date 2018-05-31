@@ -1,0 +1,15 @@
+env:
+  global:
+  - SH=bash
+before_install:
+- if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then sudo apt-get install mecab libmecab-dev mecab-ipadic mecab-ipadic-utf8 python-mecab; fi
+- if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then brew install mecab  mecab-ipadic; fi
+language: node_js
+node_js:
+- node
+cache:
+  directories:
+  - node_modules
+os:
+- linux
+- osx
