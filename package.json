@@ -1,5 +1,5 @@
 {
-  "name": "@omnislug/jp",
+  "name": "@omnislug/ja",
   "version": "0.0.1",
   "description": "Omnislug Japanese language files",
   "main": "index.js",
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/omnislug/jp.git"
+    "url": "git+https://github.com/omnislug/ja.git"
   },
   "author": "Derek Chan",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/omnislug/jp/issues"
+    "url": "https://github.com/omnislug/ja/issues"
   },
-  "homepage": "https://github.com/omnislug/jp#readme",
+  "homepage": "https://github.com/omnislug/ja#readme",
   "devDependencies": {
     "babel-eslint": "^8.2.3",
     "chai": "^4.1.2",
